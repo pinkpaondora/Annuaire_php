@@ -1,0 +1,95 @@
+body{
+    background-color: rgb(254, 242, 255);
+}
+
+h1{
+    text-align: center;
+}
+
+table{
+    display: flex;
+    justify-content: center;
+}
+
+#boutonaccueil{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+
+.save{
+    padding: 10px;
+    margin-right: 400px;
+    margin-left: 400px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+  
+
+.search{
+    display: flex;
+    justify-content: center;
+    height: 35px;
+    
+}
+
+.search .input{
+    
+}
+
+.filtres{
+    text-align: center;
+}
+
+.blocregister{
+    display: flex;
+    justify-content: space-around;
+    padding: 5px;
+}
+
+.box{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 30px;
+    padding-left: 100px;
+    padding-right: 100px;
+    border-radius: 5px;
+}
+
+input{
+    width: 100%;
+    padding: 15px;
+    background-color: rgb(255, 255, 255);
+    color: palevioletred;
+    border: none;
+    border-bottom: pink solid 1px;
+}
+
+label{
+    font-size: 18px;
+    padding: 10px;
+}
+
+select{
+    color: palevioletred;
+    padding: 10px;
+    border-color: palevioletred;
+    border-radius: 10px;
+}
+
+form button{
+    color: white;
+    background-color: palevioletred;
+    padding: 8px;
+    margin: 5px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+}
